@@ -1,0 +1,246 @@
+Start testing: Sep 04 16:40 China Standard Time
+----------------------------------------------------------
+1/9 Testing: AnimalTest.GetterReturnsConstructorValues
+1/9 Test: AnimalTest.GetterReturnsConstructorValues
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=AnimalTest.GetterReturnsConstructorValues" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"AnimalTest.GetterReturnsConstructorValues" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AnimalTest.GetterReturnsConstructorValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnimalTest
+[ RUN      ] AnimalTest.GetterReturnsConstructorValues
+[       OK ] AnimalTest.GetterReturnsConstructorValues (0 ms)
+[----------] 1 test from AnimalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"AnimalTest.GetterReturnsConstructorValues" end time: Sep 04 16:40 China Standard Time
+"AnimalTest.GetterReturnsConstructorValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: AnimalTest.SpeakPrintsGenericSound
+2/9 Test: AnimalTest.SpeakPrintsGenericSound
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=AnimalTest.SpeakPrintsGenericSound" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"AnimalTest.SpeakPrintsGenericSound" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AnimalTest.SpeakPrintsGenericSound
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnimalTest
+[ RUN      ] AnimalTest.SpeakPrintsGenericSound
+[       OK ] AnimalTest.SpeakPrintsGenericSound (0 ms)
+[----------] 1 test from AnimalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"AnimalTest.SpeakPrintsGenericSound" end time: Sep 04 16:40 China Standard Time
+"AnimalTest.SpeakPrintsGenericSound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: DogTest.GetterReturnsConstructorValues
+3/9 Test: DogTest.GetterReturnsConstructorValues
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=DogTest.GetterReturnsConstructorValues" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"DogTest.GetterReturnsConstructorValues" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DogTest.GetterReturnsConstructorValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DogTest
+[ RUN      ] DogTest.GetterReturnsConstructorValues
+[       OK ] DogTest.GetterReturnsConstructorValues (0 ms)
+[----------] 1 test from DogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"DogTest.GetterReturnsConstructorValues" end time: Sep 04 16:40 China Standard Time
+"DogTest.GetterReturnsConstructorValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: DogTest.SpeakPrintsWoof
+4/9 Test: DogTest.SpeakPrintsWoof
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=DogTest.SpeakPrintsWoof" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"DogTest.SpeakPrintsWoof" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DogTest.SpeakPrintsWoof
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DogTest
+[ RUN      ] DogTest.SpeakPrintsWoof
+[       OK ] DogTest.SpeakPrintsWoof (0 ms)
+[----------] 1 test from DogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"DogTest.SpeakPrintsWoof" end time: Sep 04 16:40 China Standard Time
+"DogTest.SpeakPrintsWoof" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: DogTest.SpeakIsPolymorphicThroughBaseClass
+5/9 Test: DogTest.SpeakIsPolymorphicThroughBaseClass
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=DogTest.SpeakIsPolymorphicThroughBaseClass" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"DogTest.SpeakIsPolymorphicThroughBaseClass" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DogTest.SpeakIsPolymorphicThroughBaseClass
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DogTest
+[ RUN      ] DogTest.SpeakIsPolymorphicThroughBaseClass
+[       OK ] DogTest.SpeakIsPolymorphicThroughBaseClass (0 ms)
+[----------] 1 test from DogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"DogTest.SpeakIsPolymorphicThroughBaseClass" end time: Sep 04 16:40 China Standard Time
+"DogTest.SpeakIsPolymorphicThroughBaseClass" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: DuckTest.GetterReturnsConstructorValues
+6/9 Test: DuckTest.GetterReturnsConstructorValues
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=DuckTest.GetterReturnsConstructorValues" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"DuckTest.GetterReturnsConstructorValues" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DuckTest.GetterReturnsConstructorValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DuckTest
+[ RUN      ] DuckTest.GetterReturnsConstructorValues
+[       OK ] DuckTest.GetterReturnsConstructorValues (0 ms)
+[----------] 1 test from DuckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"DuckTest.GetterReturnsConstructorValues" end time: Sep 04 16:40 China Standard Time
+"DuckTest.GetterReturnsConstructorValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: DuckTest.SpeakPrintsQuack
+7/9 Test: DuckTest.SpeakPrintsQuack
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=DuckTest.SpeakPrintsQuack" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"DuckTest.SpeakPrintsQuack" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = DuckTest.SpeakPrintsQuack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DuckTest
+[ RUN      ] DuckTest.SpeakPrintsQuack
+[       OK ] DuckTest.SpeakPrintsQuack (0 ms)
+[----------] 1 test from DuckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"DuckTest.SpeakPrintsQuack" end time: Sep 04 16:40 China Standard Time
+"DuckTest.SpeakPrintsQuack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: HorseTest.GetterReturnsConstructorValues
+8/9 Test: HorseTest.GetterReturnsConstructorValues
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=HorseTest.GetterReturnsConstructorValues" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"HorseTest.GetterReturnsConstructorValues" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = HorseTest.GetterReturnsConstructorValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HorseTest
+[ RUN      ] HorseTest.GetterReturnsConstructorValues
+[       OK ] HorseTest.GetterReturnsConstructorValues (0 ms)
+[----------] 1 test from HorseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"HorseTest.GetterReturnsConstructorValues" end time: Sep 04 16:40 China Standard Time
+"HorseTest.GetterReturnsConstructorValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: HorseTest.SpeakPrintsNeigh
+9/9 Test: HorseTest.SpeakPrintsNeigh
+Command: "C:/project/SDLC/Demo/build/debug/unit_tests.exe" "--gtest_filter=HorseTest.SpeakPrintsNeigh" "--gtest_also_run_disabled_tests"
+Directory: C:/project/SDLC/Demo/build/debug
+"HorseTest.SpeakPrintsNeigh" start time: Sep 04 16:40 China Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\project\SDLC\Demo\build\debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = HorseTest.SpeakPrintsNeigh
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HorseTest
+[ RUN      ] HorseTest.SpeakPrintsNeigh
+[       OK ] HorseTest.SpeakPrintsNeigh (0 ms)
+[----------] 1 test from HorseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"HorseTest.SpeakPrintsNeigh" end time: Sep 04 16:40 China Standard Time
+"HorseTest.SpeakPrintsNeigh" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 04 16:40 China Standard Time

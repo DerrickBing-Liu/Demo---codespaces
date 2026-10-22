@@ -1,0 +1,22 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja",
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include"
+    ],
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_style": "LLVM", //LLVM, Google, Chromium, Mozilla, WebKit, Microsoft, GNU
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "files.associations": {
+        "*.h": "cpp",
+        "*.tcc": "cpp"
+    }
+}

@@ -1,0 +1,134 @@
+[
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\Animal.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\Animal.cpp",
+  "file": "C:/project/SDLC/Demo/src/Animal.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/Animal.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\AnimalCreation.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\AnimalCreation.cpp",
+  "file": "C:/project/SDLC/Demo/src/AnimalCreation.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/AnimalCreation.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\Dog.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\Dog.cpp",
+  "file": "C:/project/SDLC/Demo/src/Dog.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/Dog.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\Horse.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\Horse.cpp",
+  "file": "C:/project/SDLC/Demo/src/Horse.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/Horse.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\Duck.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\Duck.cpp",
+  "file": "C:/project/SDLC/Demo/src/Duck.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/Duck.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\AnimalSoundIfElseChain.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\AnimalSoundIfElseChain.cpp",
+  "file": "C:/project/SDLC/Demo/src/AnimalSoundIfElseChain.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/AnimalSoundIfElseChain.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\AnimalSoundNested.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\AnimalSoundNested.cpp",
+  "file": "C:/project/SDLC/Demo/src/AnimalSoundNested.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/AnimalSoundNested.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\ProcessAnimalLargeMethod.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\ProcessAnimalLargeMethod.cpp",
+  "file": "C:/project/SDLC/Demo/src/ProcessAnimalLargeMethod.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/ProcessAnimalLargeMethod.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\Machine.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\Machine.cpp",
+  "file": "C:/project/SDLC/Demo/src/Machine.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/Machine.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo_lib.dir\\src\\Robot.cpp.obj /FdCMakeFiles\\demo_lib.dir\\demo_lib.pdb /FS -c C:\\project\\SDLC\\Demo\\src\\Robot.cpp",
+  "file": "C:/project/SDLC/Demo/src/Robot.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo_lib.dir/src/Robot.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\demo.dir\\src\\main.cpp.obj /FdCMakeFiles\\demo.dir\\ /FS -c C:\\project\\SDLC\\Demo\\src\\main.cpp",
+  "file": "C:/project/SDLC/Demo/src/main.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/demo.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\unit_tests.dir\\tests\\AnimalTests.cpp.obj /FdCMakeFiles\\unit_tests.dir\\ /FS -c C:\\project\\SDLC\\Demo\\tests\\AnimalTests.cpp",
+  "file": "C:/project/SDLC/Demo/tests/AnimalTests.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/unit_tests.dir/tests/AnimalTests.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\unit_tests.dir\\tests\\DogTests.cpp.obj /FdCMakeFiles\\unit_tests.dir\\ /FS -c C:\\project\\SDLC\\Demo\\tests\\DogTests.cpp",
+  "file": "C:/project/SDLC/Demo/tests/DogTests.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/unit_tests.dir/tests/DogTests.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\unit_tests.dir\\tests\\DuckTests.cpp.obj /FdCMakeFiles\\unit_tests.dir\\ /FS -c C:\\project\\SDLC\\Demo\\tests\\DuckTests.cpp",
+  "file": "C:/project/SDLC/Demo/tests/DuckTests.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/unit_tests.dir/tests/DuckTests.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\unit_tests.dir\\tests\\HorseTests.cpp.obj /FdCMakeFiles\\unit_tests.dir\\ /FS -c C:\\project\\SDLC\\Demo\\tests\\HorseTests.cpp",
+  "file": "C:/project/SDLC/Demo/tests/HorseTests.cpp",
+  "output": "C:/project/SDLC/Demo/build/CMakeFiles/unit_tests.dir/tests/HorseTests.cpp.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  /Fo_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\__\\googletest\\src\\gtest-all.cc.obj /Fdlib\\gmockpdb_debug_postfix-NOTFOUND.pdb /FS -c C:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/project/SDLC/Demo/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "C:/project/SDLC/Demo/build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  /Fo_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj /Fdlib\\gmockpdb_debug_postfix-NOTFOUND.pdb /FS -c C:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/project/SDLC/Demo/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "C:/project/SDLC/Demo/build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  /Fo_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\__\\googletest\\src\\gtest-all.cc.obj /Fdlib\\gmock_mainpdb_debug_postfix-NOTFOUND.pdb /FS -c C:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/project/SDLC/Demo/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "C:/project/SDLC/Demo/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  /Fo_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock-all.cc.obj /Fdlib\\gmock_mainpdb_debug_postfix-NOTFOUND.pdb /FS -c C:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/project/SDLC/Demo/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "C:/project/SDLC/Demo/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  /Fo_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj /Fdlib\\gmock_mainpdb_debug_postfix-NOTFOUND.pdb /FS -c C:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/project/SDLC/Demo/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "C:/project/SDLC/Demo/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  /Fo_deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj /Fdlib\\gtestpdb_debug_postfix-NOTFOUND.pdb /FS -c C:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/project/SDLC/Demo/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "C:/project/SDLC/Demo/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/project/SDLC/Demo/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\18\\PROFES~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\include -external:IC:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest -external:W0 /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  /Fo_deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj /Fdlib\\gtest_mainpdb_debug_postfix-NOTFOUND.pdb /FS -c C:\\project\\SDLC\\Demo\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:/project/SDLC/Demo/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "C:/project/SDLC/Demo/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

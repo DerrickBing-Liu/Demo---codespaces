@@ -1,0 +1,85 @@
+Updated todo list
+
+Read 
+
+Read 
+
+下面是针对你当前项目（`CMakeLists.txt` + `include` + `src`）的具体做法，分「CMake 配置」和「VS Code 集成」两部分。
+
+## 1. 用 CMake 引入 GoogleTest
+
+推荐用 `FetchContent`（无需手动下载/安装 gtest），在 `CMakeLists.txt` 中追加：
+
+```cmake
+# --- 新增：单元测试支持 ---
+enable_testing()
+
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/refs/tags/v1.15.2.zip
+)
+# 避免与主项目的运行时库设置冲突（MSVC 上很重要）
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+# 把原本 main() 之外的业务代码单独做成一个库，供测试和主程序共用
+add_library(demo_lib
+    src/Animal.cpp
+    src/Dog.cpp
+    src/Horse.cpp
+    src/Duck.cpp
+)
+target_include_directories(demo_lib PUBLIC include)
+
+add_executable(demo src/main.cpp)
+target_link_libraries(demo PRIVATE demo_lib)
+
+# 测试可执行文件
+add_executable(unit_tests
+    tests/AnimalTests.cpp
+)
+target_link_libraries(unit_tests PRIVATE demo_lib GTest::gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(unit_tests)
+```
+
+要点：
+- 把非 `main.cpp` 的源码抽成 `demo_lib` 库，测试代码和 `demo` 可执行文件都链接它，这是最关键的重构，否则测试目标里没法引用你的类而不产生重复的 `main`。
+- `GTest::gtest_main` 提供了默认的 `main()`，测试文件里不用自己写。
+- `gtest_discover_tests` 会在构建后自动把每个 `TEST(...)` 注册成 CTest 用例，供 Test Explorer 使用。
+
+## 2. 编写测试文件
+
+新建 `tests/AnimalTests.cpp`（对应你现在的 `Animal.h`）：
+
+```cpp
+#include <gtest/gtest.h>
+#include "Animal.h"
+
+TEST(AnimalTest, GetterReturnsConstructorValues) {
+    Animal a("Cat", 3);
+    EXPECT_EQ(a.getName(), "Cat");
+    EXPECT_EQ(a.getAge(), 3);
+}
+```
+
+## 3. VS Code 侧配置（CMake Tools）
+
+1. 安装扩展：**CMake Tools**（`ms-vscode.cmake-tools`）。它会自动识别 `CMakeLists.txt` 并驱动 configure/build。
+2. 命令面板运行 `CMake: Configure`，Kit 选你现在用的 MSVC（与你的 `build-debug.cmd` 任务一致）。
+3. 运行 `CMake: Build`（或直接用现有的 `cmake: build debug` task）构建出 `unit_tests` 目标。
+4. CMake Tools 内置支持 **CTest**：左侧活动栏的「Testing」图标（烧杯图标）会展示 CTest 测试用例列表，也可以在 CMake Tools 侧边栏点击"Run CTest"。
+5. 若想在 VS Code 原生 Test Explorer 里看到每个 `TEST(...)` 而不是整个可执行文件一条记录，需要开启 `gtest_discover_tests`（已在上面配置中加入），CMake Tools 会解析并逐条列出用例，可单独运行/调试单个 Test Case。
+
+## 4. 常用操作
+
+- 命令面板 `CMake: Run Tests` 或状态栏底部的测试按钮：批量运行所有 CTest 用例。
+- 在 Testing 视图里对单个测试点击「调试」，可直接对 GoogleTest 断言失败处下断点单步调试（依赖你现有的 MSVC + CMake Tools 调试配置）。
+- 终端也可以手动跑：
+  ```
+  ctest --test-dir build/debug --output-on-failure
+  ```
+
+如果需要，我可以直接帮你创建 `tests/` 目录、修改 `CMakeLists.txt` 并添加示例测试文件——需要的话告诉我，我会切换到可编辑模式来完成这些改动。

@@ -1,0 +1,10 @@
+AnimalTest.GetterReturnsConstructorValues 1 0.27764
+AnimalTest.SpeakPrintsGenericSound 1 0.282104
+DogTest.GetterReturnsConstructorValues 1 0.296132
+DogTest.SpeakPrintsWoof 1 0.264817
+DogTest.SpeakIsPolymorphicThroughBaseClass 1 0.265166
+DuckTest.GetterReturnsConstructorValues 1 0.264129
+DuckTest.SpeakPrintsQuack 1 0.266242
+HorseTest.GetterReturnsConstructorValues 1 0.263106
+HorseTest.SpeakPrintsNeigh 1 0.26518
+---

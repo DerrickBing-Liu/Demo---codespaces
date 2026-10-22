@@ -1,0 +1,75 @@
+{
+  "tests": 9,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "AnimalTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "GetterReturnsConstructorValues",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\AnimalTests.cpp",
+          "line": 5
+        },
+        {
+          "name": "SpeakPrintsGenericSound",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\AnimalTests.cpp",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "name": "DogTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "GetterReturnsConstructorValues",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\DogTests.cpp",
+          "line": 5
+        },
+        {
+          "name": "SpeakPrintsWoof",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\DogTests.cpp",
+          "line": 12
+        },
+        {
+          "name": "SpeakIsPolymorphicThroughBaseClass",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\DogTests.cpp",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "name": "DuckTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "GetterReturnsConstructorValues",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\DuckTests.cpp",
+          "line": 5
+        },
+        {
+          "name": "SpeakPrintsQuack",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\DuckTests.cpp",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "name": "HorseTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "GetterReturnsConstructorValues",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\HorseTests.cpp",
+          "line": 5
+        },
+        {
+          "name": "SpeakPrintsNeigh",
+          "file": "C:\\project\\SDLC\\Demo\\tests\\HorseTests.cpp",
+          "line": 12
+        }
+      ]
+    }
+  ]
+}

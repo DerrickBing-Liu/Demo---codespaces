@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/project/SDLC/Demo/build/debug/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

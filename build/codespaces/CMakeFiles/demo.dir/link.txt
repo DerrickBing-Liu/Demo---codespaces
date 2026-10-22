@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/demo.dir/src/main.cpp.o -o demo  libdemo_lib.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/unit_tests.dir/tests/AnimalTests.cpp.o CMakeFiles/unit_tests.dir/tests/DogTests.cpp.o CMakeFiles/unit_tests.dir/tests/DuckTests.cpp.o CMakeFiles/unit_tests.dir/tests/HorseTests.cpp.o -o unit_tests  libdemo_lib.a lib/libgtest_main.a lib/libgtest.a 

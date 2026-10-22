@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdemo_lib.a CMakeFiles/demo_lib.dir/src/Animal.cpp.o CMakeFiles/demo_lib.dir/src/AnimalCreation.cpp.o CMakeFiles/demo_lib.dir/src/Dog.cpp.o CMakeFiles/demo_lib.dir/src/Horse.cpp.o CMakeFiles/demo_lib.dir/src/Duck.cpp.o CMakeFiles/demo_lib.dir/src/AnimalSoundIfElseChain.cpp.o CMakeFiles/demo_lib.dir/src/AnimalSoundNested.cpp.o CMakeFiles/demo_lib.dir/src/ProcessAnimalLargeMethod.cpp.o CMakeFiles/demo_lib.dir/src/Machine.cpp.o CMakeFiles/demo_lib.dir/src/Robot.cpp.o
+/usr/bin/ranlib libdemo_lib.a

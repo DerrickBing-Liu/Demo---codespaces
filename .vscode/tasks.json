@@ -2,20 +2,31 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "cmake: configure debug",
+            "detail": "Configure the Debug build for Linux/Codespaces",
+            "type": "process",
+            "command": "cmake",
+            "args": [
+                "-S",
+                "${workspaceFolder}",
+                "-B",
+                "${workspaceFolder}/build/codespaces",
+                "-DCMAKE_BUILD_TYPE=Debug"
+            ],
+            "problemMatcher": []
+        },
+        {
             "label": "cmake: build debug",
-            "detail": "Configure + build the Debug target with MSVC",
-            "type": "shell",
-            "command": "${workspaceFolder}\\.vscode\\build-debug.cmd",
-            "options": {
-                "shell": {
-                    "executable": "cmd.exe",
-                    "args": [
-                        "/d",
-                        "/c"
-                    ]
-                }
-            },
-            "problemMatcher": "$msCompile",
+            "detail": "Configure and build all Debug targets for Linux/Codespaces",
+            "type": "process",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build/codespaces",
+                "--parallel"
+            ],
+            "dependsOn": "cmake: configure debug",
+            "problemMatcher": "$gcc",
             "presentation": {
                 "reveal": "always",
                 "panel": "shared",
